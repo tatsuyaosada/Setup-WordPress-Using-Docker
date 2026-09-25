@@ -26,6 +26,9 @@ wsl --install
 
 と言うコマンドを実行して下さい。インストールが完了したら
 
+<code>
+wsl --version
+</code>
 
 
 > https://learn.microsoft.com/ja-jp/windows/wsl/install
