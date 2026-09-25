@@ -1,7 +1,8 @@
 ### [Docker実践編] ローカルPC上にWordPressの開発環境を構築してみよう
+
 <hr>
 
-1. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする
+#### 1. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする
 
 コントロールパネルから「Windowsの機能と有効化」を開き
 
@@ -14,9 +15,9 @@
 
 <hr>
 
-2.[WSL2]()をインストールする
+#### 2. [WSL2]()をインストールする
 
-PowerShellかコマンドプロンプトを管理者権限で起動します。
+PowerShellかコマンドプロンプトを<strong>管理者権限</strong>で起動します。
 > ※スタッフ、インストラクターの権限が必要になるので、その都度お呼び下さい
 
 <code>
