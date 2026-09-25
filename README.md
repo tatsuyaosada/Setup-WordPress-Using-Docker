@@ -1,2 +1,2 @@
-# Setup-WordPress-Using-Docker
-Dockerを使ってWordPressをローカル上にWordPressの環境構築してみよう
+### Dockerを使ってローカルPC上にWordPressの開発環境を構築してみよう
+<hr>
