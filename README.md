@@ -24,11 +24,13 @@ PowerShellかコマンドプロンプトを<strong>管理者権限</strong>で�
 wsl --install
 </code>
 
-と言うコマンドを実行して下さい。インストールが完了したら
+と言うコマンドを実行して下さい。少々時間が掛かります。インストールが完了したら
 
 <code>
 wsl --version
 </code>
+
+で、wslのバージョンが2以上になってる事を確認して下さい。
 
 
 > https://learn.microsoft.com/ja-jp/windows/wsl/install
