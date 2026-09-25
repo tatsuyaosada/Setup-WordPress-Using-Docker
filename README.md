@@ -1,7 +1,13 @@
 ### [Docker実践編] ローカルPC上にWordPressの開発環境を構築してみよう
 <hr>
 
-1.[Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする
+#### ・[Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする
+1.コントロールパネルから「Windowsの機能と有効化」を開き
+
+- Linux用Windowsサブシステム
+- 仮想マシンプラットフォーム
+
+のチェックボックスを両方ともonにします。
 
 
 ##### 参考文献,資料
