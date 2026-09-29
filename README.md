@@ -15,7 +15,7 @@
 
 <hr>
 
-#### 2. [WSL2]()をインストールする
+#### 2. [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)をインストールする
 
 PowerShellかコマンドプロンプトを<strong>管理者権限</strong>で起動します。
 > ※スタッフ、インストラクターの権限が必要になるので、その都度お呼び下さい
@@ -31,7 +31,6 @@ wsl --version
 </code>
 
 で、wslのバージョンが2以上になってる事を確認して下さい。
-
 
 > https://learn.microsoft.com/ja-jp/windows/wsl/install
 
