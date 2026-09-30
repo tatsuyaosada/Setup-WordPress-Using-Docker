@@ -1,7 +1,5 @@
 ### [Docker実践編] ローカルPC上にWordPressの開発環境を構築してみよう
 
-第6回ウェブ班勉強会　長田
-
 <hr>
 
 #### 1. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする手順
