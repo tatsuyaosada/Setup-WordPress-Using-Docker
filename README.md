@@ -43,7 +43,7 @@ wsl --version
 2-2.「<strong>Use WSL2 instead of Hyper-V (recommend)</strong>」にチェックが入っている事を確認した後は、指示に従って下さい。
 これでDocker Desktopのインストールは完了です。
 
-<br>
+<hr>
 
 #### 3.DockerにWordPressをインストールしてみよう
 
@@ -51,6 +51,7 @@ wsl --version
 
 このページを参考にしながら進めて見てください。
 
+<hr>
 
 ##### 参考文献
 > [Docker&仮想サーバー完全入門]() <br>
