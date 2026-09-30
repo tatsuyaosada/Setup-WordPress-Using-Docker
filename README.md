@@ -49,7 +49,7 @@ wsl --version
 
 > [https://note.com/ssltokyo_tech/n/n7581b77f2255](https://note.com/ssltokyo_tech/n/n7581b77f2255)
 
-このページを参考にして下さい。
+このページを参考にしながら進めて見てください。
 
 
 ##### 参考文献,資料
