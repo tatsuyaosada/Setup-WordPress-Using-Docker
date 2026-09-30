@@ -109,6 +109,7 @@ volumes:
 
 3-3. コマンドプロンプトかPowerShellで、該当の作業ディレクトリに移動した後、以下のコマンドを投げます。
 
+
 <code>
   docker compose up -d
 </code>
