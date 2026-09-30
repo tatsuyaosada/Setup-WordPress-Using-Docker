@@ -109,11 +109,7 @@ volumes:
 
 3-3. コマンドプロンプトかPowerShellで、該当の作業ディレクトリに移動した後、以下のコマンドを投げます。
 
-
-<code>
-  docker compose up -d
-</code>
-
+<code>docker compose up -d</code>
 
 これでWordPressとphpmyadminがコンテナ上に生成され、起動しました。
 http://localhost:8080にアクセスしてみましょう。WordPressの初期設定画面が表示されれば成功です。
