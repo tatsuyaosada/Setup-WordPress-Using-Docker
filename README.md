@@ -28,6 +28,7 @@ wsl --install
 wsl --version
 </code>
 
+
 で、wslのバージョンが2.0以上になってる事を確認して下さい。
 
 > https://learn.microsoft.com/ja-jp/windows/wsl/install
