@@ -50,7 +50,7 @@ wsl --version
 
 > [https://note.com/ssltokyo_tech/n/n7581b77f2255](https://note.com/ssltokyo_tech/n/n7581b77f2255)
 
-このページを参考にしながら進めて見てください。
+基本的にはこのページを参考にしながら進めて見てください。
 
 3-1. 任意の場所に作業ディレクトリを作成して下さい。GUIからでもコマンドからでも構いません。
 3-2. 3-1で作成したディレクトリに、<code>docker-compose.yml</code>と言うファイルを作り、中身に以下をコピペします。
@@ -112,6 +112,7 @@ volumes:
 <code>
   docker compose up -d
 </code>
+
 
 これでWordPressとphpmyadminがコンテナ上に生成され、起動しました。
 http://localhost:8080にアクセスしてみましょう。WordPressの初期設定画面が表示されれば成功です。
