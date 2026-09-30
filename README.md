@@ -34,10 +34,12 @@ wsl --version
 
 <hr>
 
-#### 2. [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)をインストールする
+#### 2. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)本体をインストールする
 
 [公式ページ](https://www.docker.com/ja-jp/products/docker-desktop/)より、クライアントをダウンロードします。
-幾つか種類がありますが「Windows用をダウンロード - AMD64」を選択して下さい。
+幾つか種類がありますが「Windows用をダウンロード - AMD64」を選択して下さい。ダウンロードが完了したら、インストーラを
+走らせます。「Use WSL2 instead of Hyper-V (recommend)」にチェックが入っている事を確認した後は、指示に従って
+下さい。これで
 
 #### 3.
 
