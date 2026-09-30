@@ -2,7 +2,7 @@
 
 <hr>
 
-#### 1. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする
+#### 1. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする手順
 
 1-1.コントロールパネルから「Windowsの機能と有効化」を開き
 
@@ -13,11 +13,7 @@
 
 ※再起動が要求される場合はメッセージの指示に従って下さい。
 
-1-2.[Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする。
-
-<hr>
-
-#### 2. [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)をインストールする
+1-2.[WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)をインストールする
 
 PowerShellかコマンドプロンプトを<strong>管理者権限</strong>で起動します。
 > ※スタッフ、インストラクターの権限が必要になるので、その都度お呼び下さい
@@ -36,8 +32,16 @@ wsl --version
 
 > https://learn.microsoft.com/ja-jp/windows/wsl/install
 
+<hr>
+
+#### 2. [WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)をインストールする
+
+[公式ページ](https://www.docker.com/ja-jp/products/docker-desktop/)より、クライアントをダウンロードします。
+幾つか種類がありますが「Windows用をダウンロード - AMD64」を選択して下さい。
+
 #### 3.
 
 ##### 参考文献,資料
 > [Docker&仮想サーバー完全入門]() <br>
 > https://note.com/ssltokyo_tech/n/n7581b77f2255
+> https://qiita.com/tatsuya-tamura-business/items/7356508137ece45caca4
