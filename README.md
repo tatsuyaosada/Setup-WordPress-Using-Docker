@@ -41,7 +41,8 @@ wsl --version
 
 2-2.「<strong>Use WSL2 instead of Hyper-V (recommend)</strong>」にチェックが入っている事を確認した後、指示に従って下さい。
 
-これでDocker Desktopのインストールは完了です。起動するとアカウント作成画面になりますが、Skipで問題ありません。
+これでDocker Desktopのインストールは完了です。起動するとライセンス規約への同意に続きアカウント作成画面になりますが、Skipで飛ばして下さい。
+その後、職業調査の様なアンケートへの入力を求められますが、適当で構いません。
 
 <hr>
 
@@ -51,7 +52,60 @@ wsl --version
 
 このページを参考にしながら進めて見てください。
 
-<hr>
+3-1. 任意の場所に作業ディレクトリを作成して下さい。GUIからでもコマンドからでも構いません。
+3-2. 3-1で作成したディレクトリに、<code>docker-compose.yml</code>と言うファイルを作り、中身に以下をコピペします。
+
+<details><summary>docker-compose.yml</summary>
+
+```yml
+services:
+  db:
+    image: mysql:5.7
+    container_name: mysql
+    restart: always
+    volumes:
+      - db_data:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: wordpress
+      MYSQL_USER: wpuser
+      MYSQL_PASSWORD: wppass
+
+  wordpress:
+    image: wordpress:latest
+    container_name: wordpress
+    depends_on:
+      - db
+    restart: always
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db:3306
+      WORDPRESS_DB_USER: wpuser
+      WORDPRESS_DB_PASSWORD: wppass
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - wordpress_data:/var/www/html
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin:latest
+    container_name: phpmyadmin
+    depends_on:
+      - db
+    restart: always
+    ports:
+      - "8081:80"
+    environment:
+      PMA_HOST: db
+      PMA_USER: wpuser
+      PMA_PASSWORD: wppass
+      UPLOAD_LIMIT: 64M
+
+volumes:
+  db_data:
+  wordpress_data:
+```
+</details>
 
 ##### 参考文献
 > [Docker&仮想サーバー完全入門]() <br>
