@@ -40,9 +40,8 @@ wsl --version
 幾つか種類がありますが「<strong>Windows用をダウンロード - AMD64</strong>」を選択して下さい。ダウンロードが完了したら、インストーラを走らせます。
 
 2-2.「<strong>Use WSL2 instead of Hyper-V (recommend)</strong>」にチェックが入っている事を確認した後、指示に従って下さい。
-アカウントを要求されるウィザード
 
-これでDocker Desktopのインストールは完了です。
+これでDocker Desktopのインストールは完了です。起動するとアカウント作成画面になりますが、Skipで問題ありません。
 
 <hr>
 
