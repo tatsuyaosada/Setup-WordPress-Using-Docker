@@ -58,5 +58,6 @@ wsl --version
 > [Docker&仮想サーバー完全入門]() <br>
 
 ##### 資料資料
+> https://zenn.dev/upgradetech/articles/8e8b82e9d5c494
 > https://qiita.com/tatsuya-tamura-business/items/7356508137ece45caca4
 > https://note.com/ssltokyo_tech/n/n7581b77f2255
