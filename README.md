@@ -36,12 +36,14 @@ wsl --version
 
 #### 2. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)本体をインストールする
 
-[公式ページ](https://www.docker.com/ja-jp/products/docker-desktop/)より、クライアントをダウンロードします。
+2-1. [公式ページ](https://www.docker.com/ja-jp/products/docker-desktop/)より、クライアントをダウンロードします。
 幾つか種類がありますが「Windows用をダウンロード - AMD64」を選択して下さい。ダウンロードが完了したら、インストーラを
-走らせます。「Use WSL2 instead of Hyper-V (recommend)」にチェックが入っている事を確認した後は、指示に従って
-下さい。これで
+走らせます。
 
-#### 3.
+2-2.「<strong>Use WSL2 instead of Hyper-V (recommend)</strong>」にチェックが入っている事を確認した後は、指示に従って下さい。
+これでDocker Desktopのインストールは完了です。
+
+#### 3.DockerにWordPressをインストールしてみよう
 
 ##### 参考文献,資料
 > [Docker&仮想サーバー完全入門]() <br>
