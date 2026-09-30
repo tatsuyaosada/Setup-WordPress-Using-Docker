@@ -4,7 +4,7 @@
 
 #### 1. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする
 
-コントロールパネルから「Windowsの機能と有効化」を開き
+1-1.コントロールパネルから「Windowsの機能と有効化」を開き
 
 - Linux用Windowsサブシステム
 - 仮想マシンプラットフォーム
@@ -12,6 +12,8 @@
 のチェックボックスを両方ともonにします。
 
 ※再起動が要求される場合はメッセージの指示に従って下さい。
+
+1-2.[Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする。
 
 <hr>
 
@@ -33,6 +35,8 @@ wsl --version
 で、wslのバージョンが2以上になってる事を確認して下さい。
 
 > https://learn.microsoft.com/ja-jp/windows/wsl/install
+
+#### 3.
 
 ##### 参考文献,資料
 > [Docker&仮想サーバー完全入門]() <br>
