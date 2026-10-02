@@ -116,15 +116,22 @@ volumes:
 
 <code>docker compose up -d</code>
 
-これでWordPressとそれに必要なコンポーネントがコンテナ上に生成され、起動しました。試しに http://localhost:8080 にアクセスしてみましょう。WordPressの初期設定画面が表示されれば成功です。また、 http://localhost:8081 にアクセスするとphpmyadminになります。このあたりは上述した<code>docker-compose.yml</code>に依存しますので、コンテナのビルドアップ前であれば、Portの変更や各種パスワード、PHPのバージョンの指定、データベースに関するもの等、かなり柔軟に変更出来ます。
+これでWordPressとそれに必要なコンポーネントがコンテナ上に生成され、起動しました[^1]。試しに http://localhost:8080 にアクセスしてみましょう。WordPressの初期設定画面が表示されれば成功です。また、 http://localhost:8081 にアクセスするとphpmyadminになります。このあたりは上述した<code>docker-compose.yml</code>に依存しますので、コンテナのビルドアップ前であれば、Portの変更や各種パスワード、PHPのバージョンの指定、データベースに関するもの等、かなり柔軟に変更出来ます。
+
+
 
 #### 4.
 TODO::
 
-##### 参考文献
+
+
+###### 参考文献
 > [Docker&仮想サーバー完全入門]() <br>
 
-##### 資料資料
+###### 資料資料
 > https://zenn.dev/upgradetech/articles/8e8b82e9d5c494
 > https://qiita.com/tatsuya-tamura-business/items/7356508137ece45caca4
 > https://note.com/ssltokyo_tech/n/n7581b77f2255
+
+
+[^1]: Dockerのコンテナに開発環境を導入する事を「Pull」と言い、導入される対象をイメージと言います。今回はyamlファイルで一括してWordPressに必要なコンポーネントをインストールしましたが、個別に導入しても同様です。
