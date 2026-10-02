@@ -116,7 +116,9 @@ volumes:
 
 <code>docker compose up -d</code>
 
-これでWordPressとそれに必要なコンポーネントがコンテナ上に生成され、起動しました[^1]。試しに http://localhost:8080 にアクセスしてみましょう。WordPressの初期設定画面が表示されれば成功です。また、 http://localhost:8081 にアクセスするとphpmyadminになります。このあたりは上述した<code>docker-compose.yml</code>に依存しますので、コンテナのビルドアップ前であれば、Portの変更や各種パスワード、PHPのバージョンの指定、データベースに関するもの等、かなり柔軟に変更出来ます。
+これでWordPressとそれに必要なコンポーネントがコンテナ上に生成され、起動しました[^1]。試しに http://localhost:8080 にアクセスしてみましょう。WordPressの初期設定画面が表示されれば成功です。
+
+また、 http://localhost:8081 にアクセスするとphpmyadminになります。このあたりは上述した<code>docker-compose.yml</code>にの設定に依存しますので、コンテナのビルドアップ前であれば、Portの変更や各種パスワード、PHPのバージョンの指定、データベースに関するもの等、かなり柔軟に変更出来ます。
 
 
 
