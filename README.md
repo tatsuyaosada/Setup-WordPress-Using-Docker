@@ -113,6 +113,7 @@ volumes:
 <code>docker compose up -d</code>
 
 これでWordPressとそれに必要なコンポーネントがコンテナ上に生成され、起動しました。試しに http://localhost:8080 にアクセスしてみましょう。WordPressの初期設定画面が表示されれば成功です。
+尚、http://localhost:8081にアクセスするとPhpmyadminになります。
 
 #### 4.
 TODO::
