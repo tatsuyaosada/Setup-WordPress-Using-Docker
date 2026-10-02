@@ -132,6 +132,8 @@ WordPressは様々なコンポーネントを組み合わせて成り立って�
 
 <strong>※TODO::PCの環境によってエラーを吐くケースがあるので要検証。</strong>
 
+> https://qiita.com/Yz_Iori/items/33abd5c32baf1561bc4d
+
 #### 4.
 
 
