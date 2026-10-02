@@ -114,6 +114,9 @@ volumes:
 ```
 </details>
 
+コードのそれぞれの意味は下記URLを参考にして下さい。
+> https://note.com/ssltokyo_tech/n/n7581b77f2255
+
 3-3. コマンドプロンプトかPowerShellで、該当の作業ディレクトリに移動した後、以下のコマンドを投げます。
 
 <code>docker compose up -d</code>
