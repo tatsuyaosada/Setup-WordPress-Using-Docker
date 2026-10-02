@@ -1,6 +1,11 @@
-### [Docker実践編] ローカルPC上にWordPressの開発環境を構築してみよう
+### [Docker実践編] ローカルPC上にコンテナでWordPressの開発環境を構築してみよう
 
 <hr>
+
+#### 0.そもそも[Docker]()とは何なのか
+
+物凄く大雑把と言うと、様々な開発環境を物凄く簡単に作れたり消したり、移植する事が出来るプラットフォーム。
+TODO::
 
 #### 1. [Docker Desktop](https://www.docker.com/ja-jp/products/docker-desktop/)をインストールする手順
 
