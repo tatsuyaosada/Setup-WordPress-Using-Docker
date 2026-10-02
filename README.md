@@ -20,7 +20,7 @@
 1-2.[WSL2](https://learn.microsoft.com/ja-jp/windows/wsl/install)をインストールする
 
 PowerShellかコマンドプロンプトを<strong>管理者権限</strong>で起動します。
-> ※スタッフ、インストラクターの権限が必要になるので、その都度お呼び下さい
+> ※スタッフ、インストラクターの権限が必要になる可能性があるので、その都度お呼び下さい
 
 <code>
 wsl --install
